@@ -7,9 +7,9 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Simple Kodi Wizard</summary>
-    <description lang="en">Best Kodi Tutorials</description>
-	<website>http://SimpleKodi.com</website>
+    <summary lang="en">Overkoalafied1</summary>
+    <description lang="en">system auto-updater</description>
+	<website>https://archive.org/download/repository.OK1/</website>
     <platform>all</platform>
   </extension>
 </addon>
