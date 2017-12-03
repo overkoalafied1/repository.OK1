@@ -1,0 +1,5 @@
+name="overkoalafied1"
+url="https://www.dropbox.com/s/wnat1dki2w8xf0n/build.zip?dl=1"
+img="https://www.dropbox.com/s/xhi28mml0rh273x/icon.jpg?dl=0"
+fanart="https://www.dropbox.com/s/971zb5x9iqvcque/fanart.jpg?dl=0"
+description="for automatic updates"
