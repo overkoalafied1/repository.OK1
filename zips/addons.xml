@@ -10,11 +10,42 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Overkoalafied1</summary>
     <description lang="en">Use to keep build up to date.</description>
-	<website>https://archive.org/download/repository.OK1/</website>
+	<website></website>
     <platform>all</platform>
   </extension>
 </addon>
-
+<addon id="plugin.video.covenant" version="1.1.35" name="Covenant" provider-name="overkoalafied1">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.lambdascrapers" />
+		<import addon="script.module.covenant" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
 <addon id="repository.OK1" name="OK1's Repository" version="0.0.1" provider-name="Overkoalafied1">
 	<extension point="xbmc.addon.repository" name="OK1's Repository">
 		<dir>
