@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.covenant" version="1.1.35" name="Covenant" provider-name="overkoalafied1">
+<addon id="plugin.video.covenant" version="1.1.36" name="Covenant" provider-name="overkoalafied1">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.lambdascrapers" />
 		<import addon="script.module.lambdascrapers" />
 		<import addon="script.module.covenant" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -107,7 +106,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Overkoalafied1</summary>
     <description lang="en">Use to keep build up to date.</description>
-	<website>https://archive.org/download/repository.OK1/</website>
+	<website>https://overkoalafied1.github.io/repo/</website>
     <platform>all</platform>
   </extension>
 </addon>
