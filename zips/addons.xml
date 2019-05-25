@@ -111,6 +111,47 @@
   </extension>
 </addon>
 
+    <addon id="repository.guilouz" name="Guilouz Repository" version="1.0.3" provider-name="Guilouz">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Guilouz Repository">
+                <info compressed="false">https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/Guilouz/repository.guilouz/raw/master/_repo</datadir>
+                <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Guilouz's addons repository</summary>
+            <summary lang="fr">Extensions du dépôt de Guilouz.</summary>
+            <description lang="en">Download and install Guilouz's addons repository.</description>
+            <description lang="fr">Téléchargez et installez les extensions du dépôt de Guilouz.</description>
+            <platform>all</platform>
+            <assets>
+ 			   <icon>resources/icon.png</icon>
+ 			   <fanart>resources/fanart.jpg</fanart>
+ 			   <screenshot>resources/screenshot-01.jpg</screenshot>
+ 			   <screenshot>resources/screenshot-02.jpg</screenshot>
+ 			   <screenshot>resources/screenshot-03.jpg</screenshot>
+ 		    </assets>
+            <news>[B]1.0.3[/B][CR]• Changes for Kodi Krypton[CR][CR][B]1.0.2[/B][CR]• Fixes[CR][CR][B]1.0.1[/B][CR]• Changes for Kodi Krypton[CR][CR][B]1.0.0[/B][CR]• Initial release</news>
+    </extension>
+</addon>
+
+<addon id="repository.marcelveldt" version="1.0.1" name="Marcelveldt's BETA repository" provider-name="marcelveldt">
+
+	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
+		<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kodi repository for beta/test versions of Marcelveldt's addons</summary>
+		<description lang="en">Kodi repository for beta/test versions of Marcelveldt's addons, for stable versions please just use the official Kodi repository. This repo is for test/beta versions of my work only</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.OK1" name="OK1's Repository" version="0.0.2" provider-name="Overkoalafied1">
 	<extension point="xbmc.addon.repository" name="OK1's Repository">
 		<dir>
@@ -128,6 +169,23 @@
 		<summary lang="en">For build updates.</summary>
 		<description lang="en">For build updates.</description>
 		<genre>wizard,usa</genre>
+	</extension>
+</addon>
+
+<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.0" provider-name="rmrector">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Rector Repository">
+		<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A little place for my stuff.</summary>
+		<description lang="en">I'm Rector, I do stuff, I put it here.</description>
+		<platform>all</platform>
+		<disclaimer />
 	</extension>
 </addon>
 
