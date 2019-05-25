@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.covenant" version="1.1.35" name="Covenant" provider-name="overkoalafied1">
+<addon id="plugin.video.covenant" version="1.1.38" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.lambdascrapers" />
-		<import addon="script.module.lambdascrapers" />
+		<import addon="script.module.openscrapers" />
 		<import addon="script.module.covenant" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
 		<import addon="script.covenant.metadata" version="1.0.0" />
